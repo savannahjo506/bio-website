@@ -27,12 +27,29 @@ h1 {
     flex: 1;
     max-width: 50%;
 }
-img {
+.img1 {
     display: block;
     margin-right: auto;
     margin-left: 15%;
+    margin-bottom: 40px;
     width: 70%;
     border: 2px solid black;
+}
+.img2 {
+    display: block;
+    margin-right: auto;
+    margin-left: 15%;
+    margin-bottom: 40px;
+    width: 70%;
+    border: 2px solid black;
+}
+.cat {
+    display: block;
+    margin-right: auto;
+    margin-left: 15%;
+    margin-bottom: 20px;
+    width: 30%;
+    margin: 0 auto;
 }
 
 h2 {
@@ -40,24 +57,28 @@ h2 {
         font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
         text-align: center;
         padding: 10px;
-        margin-bottom: 5px; /* Add this line to move the underline lower */
+        margin-bottom: 5px; 
 }
 .about-me {
     color: black;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     text-align : center;
 }
+
 .about-me-bio {
-    color: black;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    text-align : center;
-    border: 2px solid black;
-    border-width: 2px;
-    padding : 10px;
-    max-width: 600px;
-    margin: 0 auto;
-}
+        font-size: 18px;
+        color: black;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        text-align : center;
+        border: 2px solid black;
+        border-width: 2px;
+        padding : 10px;
+        max-width: 600px;
+        margin: 0 auto;
+    }
+
 .socials-list {
+    font-size: 18px;
     color: black;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     text-align : center;
@@ -77,6 +98,7 @@ body {
     background-position: center;
 }
 .fav-artists-list {
+    font-size: 18px;
     color: black;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     text-align: center; 
@@ -88,6 +110,7 @@ body {
     list-style-position: inside;
 }
 .fav-films-list {
+    font-size: 18px;
     color: black;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     text-align: center;
@@ -117,3 +140,4 @@ a {
     margin: 0 auto;
     list-style-position: inside;
 }
+
